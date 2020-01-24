@@ -10,9 +10,9 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/unidoc/unipdf/v3/common"
+	"github.com/snwfdhmp/unipdf/common"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2/writer"
+	"github.com/snwfdhmp/unipdf/internal/jbig2/writer"
 )
 
 // ErrIndexOutOfRange is the error that returns if the bitmap byte index is out of range.

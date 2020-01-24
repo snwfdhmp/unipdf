@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"unicode"
 
-	"github.com/unidoc/unipdf/v3/common"
+	"github.com/snwfdhmp/unipdf/common"
 )
 
 func glyphToRune(glyph GlyphName, glyphToRuneMap map[GlyphName]rune) (rune, bool) {

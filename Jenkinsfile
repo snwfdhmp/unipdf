@@ -25,7 +25,7 @@ node {
     env.TMPDIR="${WORKSPACE}/temp"
     sh "mkdir -p ${env.TMPDIR}"
 
-    dir("${GOPATH}/src/github.com/unidoc/unipdf") {
+    dir("${GOPATH}/src/github.com/snwfdhmp/unipdf") {
         sh 'go version'
 
         stage('Checkout') {
@@ -80,7 +80,7 @@ node {
         }
     }
 
-    dir("${GOPATH}/src/github.com/unidoc/unipdf-examples") {
+    dir("${GOPATH}/src/github.com/snwfdhmp/unipdf-examples") {
         stage('Build examples') {
             // Output environment variables (useful for debugging).
             sh("printenv")
@@ -96,7 +96,7 @@ node {
             }
 
             echo "Pulling unipdf-examples on branch ${examplesBranch}"
-            git url: 'https://github.com/unidoc/unidoc-examples.git', branch: examplesBranch
+            git url: 'https://github.com/snwfdhmp/unidoc-examples.git', branch: examplesBranch
             
             // Dependencies for examples.
             sh './build_examples.sh'

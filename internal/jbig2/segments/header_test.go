@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2/reader"
+	"github.com/snwfdhmp/unipdf/internal/jbig2/reader"
 )
 
 // TestDecodeHeader test the segment header model decode process.

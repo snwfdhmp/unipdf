@@ -12,8 +12,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/unidoc/unipdf/v3/common"
-	pdfcore "github.com/unidoc/unipdf/v3/core"
+	"github.com/snwfdhmp/unipdf/common"
+	pdfcore "github.com/snwfdhmp/unipdf/core"
 )
 
 // PSParser is a basic Postscript parser.

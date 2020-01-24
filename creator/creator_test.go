@@ -30,11 +30,11 @@ import (
 	"github.com/boombuler/barcode/qr"
 	"github.com/stretchr/testify/require"
 
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/contentstream/draw"
-	"github.com/unidoc/unipdf/v3/core"
-	"github.com/unidoc/unipdf/v3/model"
-	"github.com/unidoc/unipdf/v3/model/optimize"
+	"github.com/snwfdhmp/unipdf/common"
+	"github.com/snwfdhmp/unipdf/contentstream/draw"
+	"github.com/snwfdhmp/unipdf/core"
+	"github.com/snwfdhmp/unipdf/model"
+	"github.com/snwfdhmp/unipdf/model/optimize"
 )
 
 func init() {

@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/unidoc/unipdf/v3/common"
+	"github.com/snwfdhmp/unipdf/common"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/unidoc/unipdf/v3/internal/jbig2/decoder/arithmetic"
-	"github.com/unidoc/unipdf/v3/internal/jbig2/reader"
+	"github.com/snwfdhmp/unipdf/internal/jbig2/bitmap"
+	"github.com/snwfdhmp/unipdf/internal/jbig2/decoder/arithmetic"
+	"github.com/snwfdhmp/unipdf/internal/jbig2/reader"
 )
 
 // GenericRefinementRegion represtents jbig2 generic refinement region segment - 7.4.7.

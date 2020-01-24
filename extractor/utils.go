@@ -9,8 +9,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/unidoc/unipdf/v3/common/license"
-	"github.com/unidoc/unipdf/v3/core"
+	"github.com/snwfdhmp/unipdf/common/license"
+	"github.com/snwfdhmp/unipdf/core"
 )
 
 // RenderMode specifies the text rendering mode (Tmode), which determines whether showing text shall cause

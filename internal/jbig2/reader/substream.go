@@ -9,7 +9,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/unidoc/unipdf/v3/common"
+	"github.com/snwfdhmp/unipdf/common"
 )
 
 // SubstreamReader is the wrapper over the Reader's parts that is allowed only to

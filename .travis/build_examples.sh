@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 repo_path="$HOME/projects/unipdf-examples"
-git clone https://github.com/unidoc/unipdf-examples.git $repo_path
+git clone https://github.com/snwfdhmp/unipdf-examples.git $repo_path
 cd $repo_path
 
 build_branch="$TRAVIS_BRANCH"
@@ -17,5 +17,5 @@ if [[ `git ls-remote origin "$build_branch"` ]]; then
 fi
 
 git checkout $target_branch
-echo "replace github.com/unidoc/unipdf/v3 => $TRAVIS_BUILD_DIR" >> go.mod
+echo "replace github.com/snwfdhmp/unipdf => $TRAVIS_BUILD_DIR" >> go.mod
 ./build_examples.sh

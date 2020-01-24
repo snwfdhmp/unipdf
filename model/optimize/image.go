@@ -6,9 +6,9 @@
 package optimize
 
 import (
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/core"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/snwfdhmp/unipdf/common"
+	"github.com/snwfdhmp/unipdf/core"
+	"github.com/snwfdhmp/unipdf/model"
 )
 
 // Image optimizes images by rewrite images into JPEG format with quality equals to ImageQuality.

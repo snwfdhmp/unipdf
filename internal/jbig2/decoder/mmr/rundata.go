@@ -8,9 +8,9 @@ package mmr
 import (
 	"io"
 
-	"github.com/unidoc/unipdf/v3/common"
+	"github.com/snwfdhmp/unipdf/common"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2/reader"
+	"github.com/snwfdhmp/unipdf/internal/jbig2/reader"
 )
 
 const (

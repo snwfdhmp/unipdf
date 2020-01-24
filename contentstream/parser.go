@@ -14,8 +14,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/core"
+	"github.com/snwfdhmp/unipdf/common"
+	"github.com/snwfdhmp/unipdf/core"
 )
 
 // ContentStreamParser represents a content stream parser for parsing content streams in PDFs.

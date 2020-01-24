@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/snwfdhmp/unipdf/model"
 )
 
 var (
@@ -556,7 +556,7 @@ func TestTableParagraphLinks(t *testing.T) {
 	cell = table.NewCell()
 	cell.SetBorder(CellBorderSideAll, CellBorderStyleSingle, 1)
 	p = c.NewStyledParagraph()
-	p.AddExternalLink("link to UniPDF", "https://github.com/unidoc/unipdf")
+	p.AddExternalLink("link to UniPDF", "https://github.com/snwfdhmp/unipdf")
 	cell.SetContent(p)
 
 	if err := c.Draw(table); err != nil {

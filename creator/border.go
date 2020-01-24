@@ -1,8 +1,8 @@
 package creator
 
 import (
-	"github.com/unidoc/unipdf/v3/contentstream/draw"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/snwfdhmp/unipdf/contentstream/draw"
+	"github.com/snwfdhmp/unipdf/model"
 )
 
 // border represents cell border.

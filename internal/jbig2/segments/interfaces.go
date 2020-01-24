@@ -6,8 +6,8 @@
 package segments
 
 import (
-	"github.com/unidoc/unipdf/v3/internal/jbig2/bitmap"
-	"github.com/unidoc/unipdf/v3/internal/jbig2/reader"
+	"github.com/snwfdhmp/unipdf/internal/jbig2/bitmap"
+	"github.com/snwfdhmp/unipdf/internal/jbig2/reader"
 )
 
 // Documenter is the interface used for the document model.

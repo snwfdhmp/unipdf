@@ -6,7 +6,7 @@
 package model
 
 import (
-	"github.com/unidoc/unipdf/v3/core"
+	"github.com/snwfdhmp/unipdf/core"
 )
 
 // OutlineDest represents the destination of an outline item.

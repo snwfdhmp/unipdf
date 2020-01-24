@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/snwfdhmp/unipdf/model"
 )
 
 func TestLoadPDFFormData(t *testing.T) {

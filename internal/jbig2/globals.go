@@ -8,7 +8,7 @@ package jbig2
 import (
 	"errors"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2/segments"
+	"github.com/snwfdhmp/unipdf/internal/jbig2/segments"
 )
 
 // Common errors definitions.

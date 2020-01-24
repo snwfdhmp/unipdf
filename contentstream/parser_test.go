@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/unidoc/unipdf/v3/core"
+	"github.com/snwfdhmp/unipdf/core"
 )
 
 type dictKeyVal struct {

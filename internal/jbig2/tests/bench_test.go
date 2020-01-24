@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/unidoc/unipdf/v3/internal/jbig2"
+	"github.com/snwfdhmp/unipdf/internal/jbig2"
 )
 
 // BenchmarkDecodeJBIG2Files benchmarks the decoding process of  jbig2 encoded images stored within pdf files.

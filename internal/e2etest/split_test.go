@@ -12,8 +12,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/unidoc/unipdf/v3/common"
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/snwfdhmp/unipdf/common"
+	"github.com/snwfdhmp/unipdf/model"
 )
 
 // Split tests splits a single page from a PDF, writes out and performs a sanity check on the output with ghostscript.

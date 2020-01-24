@@ -30,5 +30,5 @@
 //	}
 //	fmt.Printf("The PDF file has %d pages\n", numPages)
 //
-// For more examples, see the unidoc-examples repository on GitHub: https://github.com/unidoc/unidoc-examples
+// For more examples, see the unidoc-examples repository on GitHub: https://github.com/snwfdhmp/unidoc-examples
 package model

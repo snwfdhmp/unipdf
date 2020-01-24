@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/unidoc/unipdf/v3/model"
+	"github.com/snwfdhmp/unipdf/model"
 )
 
 func TestListSimple(t *testing.T) {

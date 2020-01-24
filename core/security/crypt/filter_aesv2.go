@@ -8,7 +8,7 @@ package crypt
 import (
 	"fmt"
 
-	"github.com/unidoc/unipdf/v3/common"
+	"github.com/snwfdhmp/unipdf/common"
 )
 
 func init() {
